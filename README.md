@@ -1,69 +1,111 @@
 # Software-Testing-Projects
 This repository contains a manual testing suite for validating key features of a sample application. It includes a structured Test Plan and detailed Test Cases for functional, UI, and regression testing.
 
-# 🧪 Manual Testing Project
+Manual Testing Project
 
-This repository contains a structured manual testing project designed to validate the core features and functionalities of a sample application. It includes a comprehensive **Test Plan**, detailed **Test Cases**, and optional **Bug Reports** to support a thorough QA process.
+A comprehensive manual testing project repository that contains a structured **Test Plan** and detailed **Test Cases** to ensure the quality, functionality, and reliability of the application under test (AUT).
 
----
+## 📌 Table of Contents
 
-## 📋 Test Plan
+- [Project Overview](#project-overview)
+- [Folder Structure](#folder-structure)
+- [Test Plan](#test-plan)
+- [Test Cases](#test-cases)
+- [How to Use](#how-to-use)
+- [Technologies & Tools](#technologies--tools)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-The test plan outlines:
-- Test objectives and scope  
-- Testing approach and deliverables  
-- Roles and responsibilities  
-- Tools and environments  
-- Schedule and timelines  
+## 📋 Project Overview
 
----
+The goal of this project is to define, document, and execute a set of manual tests to validate the core functionalities and non-functional requirements of the application.  
+This repository serves as a resource for:
+
+- QA Engineers
+- Developers
+- Project Managers
+- Stakeholders
+
+## 🗂️ Folder Structure
+
+├── Test_Plan/
+│ └── TestPlan_Document.pdf
+│
+├── Test_Cases/
+│ ├── Functional_TestCases.xlsx
+│ ├── Regression_TestCases.xlsx
+│ ├── UI_TestCases.xlsx
+│ └── Smoke_TestCases.xlsx
+│
+└── README.md
+
+markdown
+Copy
+Edit
+
+## 📝 Test Plan
+
+The **Test Plan** outlines the testing strategy, scope, objectives, resources, schedule, and deliverables.
+
+📄 **Location:** `/Test_Plan/TestPlan_Document.pdf`
+
+Contents of the Test Plan:
+- Scope of Testing
+- Test Objectives
+- Resources and Roles
+- Test Environment
+- Test Deliverables
+- Entry and Exit Criteria
+- Risks and Mitigation
 
 ## ✅ Test Cases
 
+The **Test Cases** provide detailed step-by-step actions to validate the application’s features and functionality.
+
+📂 **Location:** `/Test_Cases/`
+
+Test Case Categories:
+- **Functional Test Cases**  
+- **Regression Test Cases**  
+- **UI Test Cases**  
+- **Smoke Test Cases**  
+
 Each test case includes:
 - Test Case ID  
-- Description  
+- Title/Description  
 - Preconditions  
 - Test Steps  
 - Expected Result  
 - Actual Result  
-- Status (Pass/Fail)  
+- Status (Pass/Fail)
 
----
+## 🚀 How to Use
 
-## 🐞 Bug Reports (Optional)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/manual-testing-project.git
+Navigate through the Test Plan and Test Cases folders.
 
-A log of any issues found during testing, including:
-- Bug ID  
-- Summary  
-- Severity & Priority  
-- Steps to Reproduce  
-- Expected vs Actual Result  
-- Status
+Execute the relevant test cases as per the module or feature under test.
 
----
+Document results and report any defects using your team’s bug tracking tool.
 
-## 🛠 Tools Used
+🛠️ Technologies & Tools
+Documentation: MS Word, Excel (or Google Docs/Sheets)
 
-- Excel / Google Sheets (for test documentation)  
-- Manual test execution (browser, mobile device, etc.)  
-- [Optional] Bug tracking tool (e.g., JIRA, Bugzilla)
+Bug Tracking: JIRA, Bugzilla (optional)
 
----
+Test Management: TestRail, Zephyr (optional)
 
-## 🔍 Test Coverage
+🤝 Contributing
+Contributions, suggestions, and improvements are welcome!
 
-- Functional Testing  
-- UI/UX Testing  
-- Negative Testing  
-- Boundary Value Testing  
-- Regression Testing
+Fork the repository
 
----
+Create a new branch (git checkout -b feature-branch)
 
-## 🚀 Getting Started
+Commit your changes (git commit -m 'Add new test cases')
 
-1. Clone the repository
-2. Review the Test Plan (`/TestPlan/`)
-3. Execute the test cases from `/TestCases/`
-4. Log any issues in `/BugReports/`
+Push to the branch (git push origin feature-branch)
+
+Open a Pull Request
